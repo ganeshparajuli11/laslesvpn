@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  "Roboto", sans-serif;
+}
+
+body{
+
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top:35px ;
+}
+
+.text-bold-highlight{
+    font-weight: bold;
+}
+
+.logo-title{
+
+    font-size: 25px;
+    color: #002265;
+}
+.navbar ul{
+
+    display: flex;
+    gap: 45px;
+}
+
+.navbar ul li{
+
+    list-style: none;
+}
+
+.navbar ul li a{
+
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 25px;
+    color: #212121;
+}
+
+.navbar ul li a.conatc-me{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: #608AF5;
+    color: white;
+    border-radius: 10px;
+}
+
+
+/* body */
+
+.rectangle{
+    position: absolute;
+    top: 150px; /* Adjust based on your layout */
+    left: 250px;
+    transform: translateX(-50%);
+    width: 143px;
+    height: 150px;
+    background-color: #0E85F3;
+    border-radius: 50%;
+    filter: blur(60px);
+    opacity: 0.6;
+    z-index: -1; 
+
+}
+
+.hero-content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero-content img{
+
+    width: 501px;
+    height: 467px;
+}
+
+.left-part{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+p.mini-title{
+
+    font-size: 35px;
+    color: #002265;
+}
+
+.title-nam{
+
+    font-size: 50px;
+    color: #002265;
+    font-weight: bold;
+}
+
+.description{
+
+    font-size: 23px;
+    font-weight: normal;
+    width: 600px;
+    height: 108px;
+    
+}
+
+.passions{
+    margin-top: 118px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
